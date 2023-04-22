@@ -1,0 +1,132 @@
+.contact{
+   background-image: url('https: //rare-gallery.com/uploads/posts/4518325-painting-canvas-sunset-brush-savannah-trees-paint-splatter-sun.jpg');
+    width: 100%;
+    display: grid;
+place-items: center;
+   overflow-y: hidden;
+}
+.background-contact{
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+.contact-form{
+    background-color: transparent;
+    margin: 10rem;
+  
+}
+.name{
+width:30rem;
+height: 1rem;
+background-color: rgba(11, 39, 74, 0.5);
+border: 1px solid rgb(98, 75, 32);
+text-indent: 10px;
+color: white;
+
+}
+.email{
+    width:30rem;
+    display: block;
+    height: 1rem;
+    background-color: rgba(11, 39, 74,0.5);
+    border: 1px solid rgb(98, 75, 32);
+    text-indent: 10px;
+    color: white;
+}
+.subject{
+    width:30rem;
+    display: block;
+    margin: 0.4rem 0;
+    height: 1rem;
+   
+    background-color: rgba(11, 39, 74, 0.5);
+    border: 1px solid rgb(98, 75, 32);
+    text-indent: 10px;
+    color: white;
+}
+.textarea{
+    width:30rem;
+    
+    display: block;
+        margin: 0.4rem 0;
+        height: 3rem;
+       
+        background-color: rgba(11, 39, 74, 0.5);
+        border: 1px solid rgb(98, 75, 32);
+ 
+        color: white
+}
+.submit{
+display: block;
+
+    margin: 0.7rem 0;
+    margin-left: 6.3rem;
+    padding: 0.4rem;
+    width:7rem;
+    border: 1px solid rgb(98, 75, 32);
+ 
+    color: white;
+    background: rgb(91, 73, 39);
+    font-size: 1rem;
+}
+.submit:hover{
+    background-color: rgba(11, 39, 74, 0.5);
+    border: 1px solid white;
+}
+input,
+textarea {
+    width: 30%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(75, 49, 49, 0.3);
+    border: 2px solid rgb(47, 11, 11);
+    resize: none;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:1000px) {
+.contact-form{
+    margin-left: -11rem;
+}
+.name {
+    width: 20rem;
+}
+
+.email {
+    width: 20rem;
+}
+
+.subject {
+    width: 20rem;
+}
+
+.textarea {
+    width: 20rem;
+}
+}
+@media screen and (max-width:600px) {
+.contact-form{
+    margin-left: -11rem;
+    width: 5rem;
+}
+.name{
+    width: 20rem;
+}
+.email{
+    width: 20rem;
+}
+.subject{
+    width: 20rem;
+}
+.textarea{
+    width: 20rem;
+}
+
+}

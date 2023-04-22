@@ -1,0 +1,73 @@
+
+
+.register{
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    display: grid;
+    place-items: center;
+    overflow-y: hidden;
+    
+}
+.container-register{
+    background-color: rgba(9, 58, 78,0.8);
+    
+    width:20rem;
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+  margin-top: 4px;
+   
+}
+.background-register{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -10;
+    width:100%;
+    height: 100%;
+}
+.one{
+    padding:5px;
+    border: 1px solid white;
+    color:white;
+    border-radius: 0px;
+    background-color: transparent;
+    width:15rem;
+    font-size: 0.7rem;
+    
+
+}
+.register-h1{
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+    font-size: 1.3rem;
+}
+.free{
+    font-size: 0.4rem;
+    color: aqua;
+   margin: 3px;
+
+}
+.label{
+    text-align: start;
+  font-size: 0.6rem;
+   
+    margin-bottom: 2rem;
+}
+.create{
+    background-color: rgba(14, 255, 175, 0.3);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+.check-it{
+    font-size: 0.5rem;
+    margin: 0.5rem;
+}
+.line{
+    content: '';
+    width:6rem;
+    height:1px;
+    background-color: aqua;
+}

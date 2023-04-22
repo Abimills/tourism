@@ -1,0 +1,156 @@
+.hotels{
+    width:100vw;
+   height: max-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   display: grid;
+   place-items: center;
+   overflow-x: hidden;
+}
+.hotel{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.hotel-tour{
+    width:350px;
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-top-right-radius:6px ;
+    border-top-left-radius:6px ;
+    margin: 1rem;
+
+    
+}
+.no-hotels{
+    text-align: center;
+    margin-top: 10%;
+}
+.no-hotels h1{
+    padding: 11px;
+        margin: 1rem;
+        color: rgb(226, 195, 163);
+        background-color: rgb(130, 63, 74);
+        text-transform: uppercase;
+        border-radius: 10px;
+        font-weight: 700;
+        border: 1px solid transparent;
+        cursor: pointer;
+}
+.written-content{
+    padding:0.7rem;
+  
+}
+
+.title-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem ;
+}
+.title-price h3{
+   margin-left: -1rem; 
+   font-size: 1rem;
+}
+.title-price h4{
+    background:#bae5f6;
+    font-size: 0.7rem;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status{
+    color:rgb(114, 216, 96);
+    font-size:1rem;
+}
+.explain{
+    color:gray;
+    font-size:0.7rem;
+ 
+}
+.hotel-img{
+    width:100%;
+    height:250px;
+    border-top-right-radius:6px ;
+    border-top-left-radius:6px ;
+    object-fit: cover;
+}
+
+.book-now{
+    padding: 6px;
+      margin: 0.5rem;
+        color: rgb(78, 47, 17);
+        background-color: rgb(255, 229, 157);
+        text-transform: uppercase;
+        border-radius: 5px;
+        
+        border: 1px solid transparent;
+        cursor: pointer;
+       
+        font-size: 0.6rem;
+    }
+    .book-now:hover{
+        color:black;
+        background-color: transparent;
+        border: 1px solid rgb(78, 47, 17);
+      
+}
+.red{
+    color:rgb(107, 22, 22);
+    background-color: transparent;
+   
+}
+
+.not-interested {
+    padding:5px;
+    margin: 1rem;
+    color: rgb(226, 195, 163);
+    background-color: rgb(130, 63, 74);
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 0.6rem;
+   
+    border: 1px solid transparent;
+    cursor: pointer;
+
+
+}
+
+.not-interested:hover {
+    border: 1px solid rgb(130, 63, 74);
+    ;
+    color: black;
+}
+@media screen and (max-width:1000px) {
+.hotel{
+    grid-template-columns: repeat(2,1fr);
+  
+    overflow-y: visible;
+}
+.hotel-tour{
+    width:250px;
+}
+.hotel-img{
+    height: 150px;
+}
+.explain{
+    font-size: 0.4rem;
+}
+.status{
+    font-size: 0.5rem;
+}
+.not-interested{
+    font-size: 0.4rem;
+}
+.book-now{
+    font-size: 0.4rem;
+}
+}
+@media screen and (max-width:600px) {
+.hotel {
+        grid-template-columns: repeat(1, 1fr);
+     
+        overflow-y: visible;
+    }
+}

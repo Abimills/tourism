@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+.destination{
+    width:100vw;
+   height: 90vh;
+   overflow-y: hidden;
+}
+
+.canada-img{
+width:100%;
+height:900px;
+margin-top: -6rem;
+z-index: -11;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.flights-container{
+    width: max-content;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    gap: 2rem;
+    
+    margin-top: -9rem;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+   
+    
+
+}
+.flights:hover{
+    background-color: rgb(114, 58, 58);
+}
+.flights{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    position:relative;
+    top:-650px;
+    background-color: rgba(0 , 0 , 0,0.7);;
+    padding: 1rem;
+    font-family: cursive;
+    color:white;
+   
+}
+.flights h1{
+    text-align: center;
+    font-size: 0.6rem;
+    color:white;
+    padding: 10px;
+ 
+}
+.h1{
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+        font-family: 'Dancing Script', cursive;
+}
+.country{
+    margin-left: 20px;
+    font-size: 1rem;
+    color:aqua
+}
+.money{
+    margin-left: 10px;
+    font-size: 1rem;
+    color:rgb(255, 204, 0)
+}
+.flights h3{
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 200;
+    color:aquamarine;
+    
+}
+.flights p{
+    text-align: center;
+    font-weight: 200;
+    color:rgb(239, 244, 242);
+    font-size: 0.4rem;
+    max-width: 150px;
+   
+
+}
+.discover{
+    position: relative;
+    color:rgb(76, 57, 29);text-align: center;
+    top:-53rem;
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: 10;
+    margin-top: 4rem;
+}
+.book{
+    background-color: rgba(39, 42, 98, 0.7);
+    position: relative;
+    top: -39rem;
+    width: 500px;
+    height: 120px;
+    padding: 5px 0;
+    border-radius: 10px;
+text-align: center;
+margin-left: 2rem;
+}
+.book-header{
+    color:white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1rem 0;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
+.first{
+    padding:5px;
+    outline: none;
+    border:1px solid antiquewhite;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    background-color: rgb(241, 249, 252);;
+    border-radius: 0px;
+  
+}
+.second{
+    padding:5px;
+    outline: none;
+    border:1px solid antiquewhite;
+    background-color: rgb(241, 249, 252);;
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 0px;
+    
+}
+.check-btn{
+    padding:6px;
+    outline: none;
+    color:white;
+    border:1px solid transparent;
+    background-color: rgb(63, 113, 166);
+    margin-left: 1rem;
+    width:100px;
+    font-size:1rem;
+  
+}
+.check-btn:hover{
+    background-color: white;
+    color:rgb(63, 113, 166);
+    border:1px solid white;
+
+}
+@media screen and (min-width:1100px) {
+
+.book{
+    margin-left: 29%;
+    
+}
+}
+@media screen and (max-width:1000px) {
+.discover{
+    font-size: 3rem;
+}
+.flights{
+width:120px;
+height:124px;
+}
+.flights h1{
+    font-size: 0.5rem;
+}
+.flights h3{
+    margin-top: -0.5rem;
+font-size: 0.5rem;
+}
+.flights p{
+font-size: 0.3rem;
+}
+.country{
+    font-size: 0.9rem;
+}
+.money{
+    font-size: 0.9rem;
+}
+.book{
+    margin-left: 25%;
+    width: 50%;
+}
+
+
+}
+
+@media screen and (max-width:600px) {
+    .destination{
+        overflow-y: visible;
+    }
+    .first,.second{
+        font-size: 0.7rem;
+    }
+.flights{
+   margin: 1rem;
+}
+    .book{
+        margin-left: 5%;
+        width: 90%;
+    }
+   .first{
+    padding: 6px;
+   }
+   .second{
+    padding: 6px;
+   }
+
+}
